@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- daily activity -->
+    <style name="cardFriend" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_marginStart">@dimen/dimen10</item>
+        <item name="android:layout_marginEnd">@dimen/dimen10</item>
+        <item name="cardCornerRadius">@dimen/dimen20</item>
+        <item name="cardElevation">@dimen/dimen10</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+</resources>

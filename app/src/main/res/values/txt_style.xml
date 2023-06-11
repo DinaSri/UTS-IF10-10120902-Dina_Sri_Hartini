@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- global -->
+    <style name="titleStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">@dimen/dimen10</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    <!-- daily activity -->
+    <style name="nameFriend" parent="Widget.MaterialComponents.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/background1</item>
+    </style>
+
+    <!-- music -->
+    <style name="titleSong" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/background1</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <!-- profile -->
+    <style name="profile_bot" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/dimen10</item>
+        <item name="android:textSize">@dimen/dimen20</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+
+</resources>

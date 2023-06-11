@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- music top -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/bg_rounded">
+
+        <TextView
+            style="@style/titleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/music"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <!-- music content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="620dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen30"
+            android:paddingBottom="60dp"
+            android:paddingStart="@dimen/dimen50"
+            android:paddingEnd="@dimen/dimen50">
+
+
+            <TextView
+                style="@style/titleSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/westlife_flying_without_wings"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:textSize="12sp"
+                android:textFontWeight="800"
+                tools:targetApi="p" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="@dimen/dimen5"
+                android:layout_marginBottom="@dimen/dimen20"
+                android:clickable="false">
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                style="@style/titleSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/westlife_better_man"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:textSize="12sp"
+                android:textFontWeight="800"
+                tools:targetApi="p" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="@dimen/dimen5"
+                android:layout_marginBottom="@dimen/dimen20"
+                android:clickable="false">
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                style="@style/titleSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/westlife_my_love"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:textSize="12sp"
+                android:textFontWeight="800"
+                tools:targetApi="p" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="@dimen/dimen5"
+                android:layout_marginBottom="@dimen/dimen20"
+                android:clickable="false">
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                style="@style/titleSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/westlife_i_have_a_dream"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:textSize="12sp"
+                android:textFontWeight="800"
+                tools:targetApi="p" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="@dimen/dimen5"
+                android:layout_marginBottom="@dimen/dimen20"
+                android:clickable="false">
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- song 5 -->
+            <TextView
+                style="@style/titleSong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/westlife_when_you_tell_me_that_you_love_me"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:textSize="12sp"
+                android:textFontWeight="800"
+                tools:targetApi="p" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="@dimen/dimen5"
+                android:layout_marginBottom="@dimen/dimen20"
+                android:clickable="false">
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

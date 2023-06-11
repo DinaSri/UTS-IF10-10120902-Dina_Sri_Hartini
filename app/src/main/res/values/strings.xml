@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MySelf Apps</string>
+
+    <!-- bottom menu -->
+    <string name="home">Home</string>
+    <string name="activity">Activity</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music</string>
+    <string name="profile">Profile</string>
+
+    <!-- apps -->
+    <string name="myName">Dina Sri Hartini</string>
+    <string name="myDescription">I was born in Bandung in 2002 and now i am studying for bachelor degree at UNIKOM Bandung.</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="find_me">Find Me</string>
+    <string name="about_apps">About Apps</string>
+    <string name="westlife_flying_without_wings">Westlife - Flying Without Wings</string>
+    <string name="westlife_better_man">Westlife - Better Man</string>
+    <string name="westlife_my_love">Westlife - My Love</string>
+    <string name="westlife_i_have_a_dream">Westlife - I Have a Dream</string>
+    <string name="westlife_when_you_tell_me_that_you_love_me">Westlife - When You Tell Me That You Love Me</string>
+    <string name="rizka">Rizka Ghinna Auliya</string>
+    <string name="yora">Yora Barera</string>
+    <string name="friends_list">Friends List</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="image_gallery_1">image gallery 1</string>
+    <string name="image_gallery_2">image gallery 2</string>
+    <string name="image_gallery_3">image gallery 3</string>
+    <string name="image_gallery_4">image gallery 4</string>
+    <string name="eat">Eat</string>
+    <string name="usually_i_eat_while_watching_youtube">I usually eat while watching youtube</string>
+    <string name="study">Study</string>
+    <string name="study_campus_materials_and_off_campus_ministers">Study campus materials and off-campus ministers</string>
+    <string name="watch_movies_or_youtube">Watch movies or youtube</string>
+    <string name="i_like_watching_movies_and_videos_on_youtube">I like watching movies and videos on youtube</string>
+    <string name="play_guitar_and_sing">Play guitar and sing</string>
+    <string name="i_like_playing_guitar_and_singing_alone">I like playing guitar and singing</string>
+    <string name="gaming">Gaming</string>
+    <string name="i_like_playing_mobile_and_pc_games">I like to play mobile games and pc games</string>
+    <string name="hobby">Hobby</string>
+    <string name="basketball">Basketball</string>
+    <string name="interest">Interest</string>
+    <string name="full_stack_developer">Full Stack developer</string>
+    <string name="future_goals">Future Goals</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="guitar">Guitar</string>
+    <string name="ok">OK</string>
+
+    <!-- dialog -->
+    <string name="dialog_type">About Apps</string>
+    <string name="dialog_title">MySelf Apps</string>
+    <string name="dialog_desc">v1.0</string>
+    <string name="email">Email</string>
+
+</resources>

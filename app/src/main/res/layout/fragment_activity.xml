@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ActivityFragment">
+
+    <!-- daily activity -->
+    <LinearLayout
+        android:id="@+id/activityTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:background="@color/background1"
+        android:padding="@dimen/dimen10">
+
+        <TextView
+            style="@style/titleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daily_activity"
+            android:textFontWeight="800"
+            android:textSize="20sp"
+            tools:targetApi="p" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="290dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen10">
+
+                <!-- activity 1 (Eat) -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_eat"
+                            android:contentDescription="@string/eat" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="@string/eat"
+                                android:textSize="15sp"
+                                android:textAllCaps="true"
+                                />
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:text="@string/usually_i_eat_while_watching_youtube"
+                                android:textSize="11sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!-- activity 2 (Study) -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_study"
+                            android:contentDescription="@string/study" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="@string/study"
+                                android:textSize="15sp"
+                                android:textAllCaps="true"
+                                />
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:text="@string/study_campus_materials_and_off_campus_ministers"
+                                android:textSize="11sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!-- activity 2 (Watching) -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_watching"
+                            android:contentDescription="@string/watch_movies_or_youtube" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="@string/watch_movies_or_youtube"
+                                android:textSize="15sp"
+                                android:textAllCaps="true"
+                                />
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:text="@string/i_like_watching_movies_and_videos_on_youtube"
+                                android:textSize="11sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!-- activity 2 (Guitar) -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_guitar"
+                            android:contentDescription="@string/play_guitar_and_sing" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="@string/play_guitar_and_sing"
+                                android:textSize="15sp"
+                                android:textAllCaps="true"
+                                />
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:text="@string/i_like_playing_guitar_and_singing_alone"
+                                android:textSize="11sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!-- activity 2 (Gaming) -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_gaming"
+                            android:contentDescription="@string/gaming" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:text="@string/gaming"
+                                android:textSize="15sp"
+                                android:textAllCaps="true"
+                                />
+
+                            <TextView
+                                style="@style/nameFriend"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:text="@string/i_like_playing_mobile_and_pc_games"
+                                android:textSize="11sp"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!-- friends list -->
+    <LinearLayout
+        android:id="@+id/activityBot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/background1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityTop"
+        android:padding="@dimen/dimen10"
+        android:layout_marginTop="-60dp">
+
+        <TextView
+            style="@style/titleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/friends_list"
+            android:textFontWeight="800"
+            android:textSize="20sp"
+            tools:targetApi="p" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="290dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen10">
+
+                <!-- friend 1 -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_activity_friend_man"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/rizka" />
+
+                        <TextView
+                            style="@style/nameFriend"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rizka"
+                            android:layout_weight="1"
+                            android:textSize="11sp"
+                            android:padding="@dimen/dimen10" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!-- friend 2 -->
+                <androidx.cardview.widget.CardView
+                    style="@style/cardFriend"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/dimen5"
+                    android:layout_marginBottom="@dimen/dimen5"
+                    app:cardElevation="@dimen/dimen5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dimen5">
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:padding="@dimen/dimen10"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_activity_friend_man"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/yora" />
+
+                        <TextView
+                            style="@style/nameFriend"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/yora"
+                            android:layout_weight="1"
+                            android:textSize="11sp"
+                            android:padding="@dimen/dimen10" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
